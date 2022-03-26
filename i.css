@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+/*
+
+Style our app according to the provided design!
+
+green color -> #5f9341
+
+*/
+
+
+input {
+    width: 100%; /* 100% + 10px + 10px */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #5f9341;
+  color: white;  
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+}
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid #5f9341;
+
+}
+/* Style the lists */
+ul{
+   list-style: none;
+   margin-top: 20px;
+   padding-left: 0%;
+}
+li{
+    margin-top: 5px;
+    text-underline-position: below;
+}
+a{
+    color: #5f9341;
+}
+
